@@ -1,17 +1,15 @@
-body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 20px; padding: 20px; display: flex; justify-content: center; align-items: center; }
+body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background-color: #f4f4f4; text-align: center; }
 
-table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
 
-th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+th, td { border: 1px solid #ddd; padding: 12px; text-align: center; font-size: 14px; }
 
-th { background-color: #007bff; color: white; font-weight: bold; }
+th { background-color: #007bff; color: white; }
 
-td { background-color: #f9f9f9; }
+tr:nth-child(even) { background-color: #f2f2f2; }
 
-tr:nth-child(even) td { background-color: #f1f1f1; }
+tr:hover { background-color: #ddd; }
 
-tr:hover td { background-color: #ddd; }
+.vertical-text { writing-mode: vertical-rl; transform: rotate(180deg); text-align: center; font-weight: bold; background-color: #007bff; color: white; }
 
-.vertical-text { writing-mode: vertical-rl; transform: rotate(180deg); text-align: center; font-weight: bold; }
-
-
+h2 { color: #333; }
